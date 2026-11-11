@@ -1,0 +1,13 @@
+{
+  "name": "fila-jobs",
+  "version": "1.0.0",
+  "description": "Fila de jobs com prioridade, concorrência, backoff exponencial com jitter, timeout, idempotência e fila de mortos.",
+  "type": "module",
+  "main": "src/fila.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node exemplos/demo.js"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
